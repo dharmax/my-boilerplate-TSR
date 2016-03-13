@@ -1,3 +1,3 @@
-
 require('./css/styles.css');
-document.write('it works');
+require('./tsout/app.js'); 
+document.write('it works better');
