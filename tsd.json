@@ -4,5 +4,18 @@
   "ref": "master",
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
-  "installed": {}
+  "installed": {
+    "react/react-dom.d.ts": {
+      "commit": "d22516f9f089de107d7e7d5938566377370631f6"
+    },
+    "react/react.d.ts": {
+      "commit": "d22516f9f089de107d7e7d5938566377370631f6"
+    },
+    "react-router/react-router.d.ts": {
+      "commit": "d22516f9f089de107d7e7d5938566377370631f6"
+    },
+    "react-router/history.d.ts": {
+      "commit": "d22516f9f089de107d7e7d5938566377370631f6"
+    }
+  }
 }

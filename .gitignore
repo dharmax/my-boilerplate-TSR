@@ -1,6 +1,6 @@
 node_modules/*
 typings/*
 css/*
-**/*.js
+tsout/*
 !index.js
 !webpack.config.js

@@ -28,8 +28,13 @@
         "placeOpenBraceOnNewLineForControlBlocks": false
     },
     "files": [
-        "src/app.ts",
-        "typings/tsd.d.ts"
+        "typings/react-router/history.d.ts",
+        "typings/react-router/react-router.d.ts",
+        "typings/react/react-dom.d.ts",
+        "typings/react/react.d.ts",
+        "typings/tsd.d.ts",
+        "src/app.tsx",
+        "src/main.tsx"
     ],
     "atom": {
         "rewriteTsconfig": true
