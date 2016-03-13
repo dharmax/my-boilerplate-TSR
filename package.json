@@ -1,0 +1,15 @@
+{
+  "name": "my-boiler",
+  "version": "0.0.1",
+  "description": "boilerplate, webpack, react, typescript etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0"
+  }
+}
