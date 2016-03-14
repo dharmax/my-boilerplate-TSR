@@ -34,7 +34,9 @@
         "typings/react/react.d.ts",
         "typings/tsd.d.ts",
         "src/app.tsx",
-        "src/main.tsx"
+        "src/main.tsx",
+        "src/MainComponents.tsx",
+        "src/myjs.tsx"
     ],
     "atom": {
         "rewriteTsconfig": true
