@@ -4,7 +4,8 @@
     * typescript
     * react
     * less
-3. Philosophy:
+3. The typescript compilation is done by Atom with the typescript compiler.  
+4. Philosophy:
   * be lean and simple
   * use a small set of the best components
   * use strict typing when it brings value; don't over do it though
