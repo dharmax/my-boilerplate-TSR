@@ -9,9 +9,10 @@ import { Router, Route,hashHistory } from 'react-router';
 // import UserPage from './pages/UserPage';
 import {Explore,RepoPage,UserPage} from "./MainComponents"
 
-export default class Root extends Component {
+export default class Root extends Component<any,any> {
 
   render() {
+    // jscs:disable
     return (
       <Router history={hashHistory}>
         <Route name='explore' path='/' component={Explore}>
@@ -20,5 +21,6 @@ export default class Root extends Component {
         </Route>
       </Router>
     );
+    // jscs:enable
   }
 }
