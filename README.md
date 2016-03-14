@@ -4,6 +4,7 @@
     * typescript
     * react
     * less
+    * material-ui 
 3. The typescript compilation is done by Atom with the typescript compiler.  
 4. Philosophy:
   * be lean and simple

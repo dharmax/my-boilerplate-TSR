@@ -9,7 +9,7 @@ import { Router, Route,hashHistory } from 'react-router';
 // import UserPage from './pages/UserPage';
 import {Explore,RepoPage,UserPage} from "./MainComponents"
 
-export default class Root extends Component<any,any> {
+export default class RootRouter extends Component<any,any> {
 
   render() {
     // jscs:disable

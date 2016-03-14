@@ -36,7 +36,7 @@
         "src/app.tsx",
         "src/main.tsx",
         "src/MainComponents.tsx",
-        "src/myjs.tsx"
+        "src/router.tsx"
     ],
     "atom": {
         "rewriteTsconfig": true

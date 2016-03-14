@@ -1,14 +1,19 @@
 /// <reference path="../typings/tsd.d.ts" />
 
 import * as React from "react"
-import Root  from "./myjs.js"
+import RootRouter  from "./router"
+import * as AppBar from "material-ui/lib/app-bar"
+
 
 export class Main extends React.Component<{}, {}> {
+
     render(): React.ReactElement<{}> {
         return  <div>
-                    <header><h1>Boiler room</h1></header>
-                    <Root/>
-                    <footer>Footer</footer>
+                    <AppBar
+                      title="Boilerplate"
+                      iconClassNameRight="muidocs-icon-navigation-expand-more"
+                    />
+                    <RootRouter/>
                 </div>;
     }
 };
