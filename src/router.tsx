@@ -3,10 +3,6 @@
 import { PropTypes, Component } from 'react';
 import * as React from 'react';
 import { Router, Route,hashHistory } from 'react-router';
-
-// import App from './App';
-// import RepoPage from './pages/RepoPage';
-// import UserPage from './pages/UserPage';
 import {Explore,RepoPage,UserPage} from "./MainComponents"
 
 export default class RootRouter extends Component<any,any> {
