@@ -10,6 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "retyped-material-ui-tsd-ambient": "^0.13.4-0",
+    "retyped-react-tsd-ambient": "^0.14.0-1",
     "style-loader": "^0.13.0"
   },
   "dependencies": {

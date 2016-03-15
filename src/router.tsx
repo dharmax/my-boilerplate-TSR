@@ -3,7 +3,7 @@
 import { PropTypes, Component } from 'react';
 import * as React from 'react';
 import { Router, Route,hashHistory } from 'react-router';
-import {Explore,RepoPage,UserPage} from "./MainComponents"
+import {Explore,RepoPage,UserPageContainer} from "./MainComponents"
 
 export default class RootRouter extends Component<any,any> {
 
@@ -13,7 +13,7 @@ export default class RootRouter extends Component<any,any> {
       <Router history={hashHistory}>
         <Route name='explore' path='/' component={Explore}>
           <Route name='repo' path='/:login/:name' component={RepoPage} />
-          <Route name='user' path='/:login' component={UserPage} />
+          <Route name='user' path='/:login' component={UserPageContainer} />
         </Route>
       </Router>
     );
