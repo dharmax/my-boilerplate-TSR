@@ -85,7 +85,7 @@ class UserPage extends React.Component<{},any> {
   render(): React.ReactElement<{}> {
     return <Card>
       <CardHeader
-        title="user {this.state.username}"
+        title={"user " + this.state.username}
         subtitle="Subtitle"
         avatar="http://lorempixel.com/100/100/nature/"
       />

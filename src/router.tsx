@@ -6,7 +6,9 @@ import { Router, Route,hashHistory } from 'react-router';
 import {Explore,RepoPage,UserPageContainer} from "./MainComponents"
 
 export default class RootRouter extends Component<any,any> {
-
+  // contextTypes: {
+  //   router: React.PropTypes.object.isRequired
+  // }
   render() {
     // jscs:disable
     return (
